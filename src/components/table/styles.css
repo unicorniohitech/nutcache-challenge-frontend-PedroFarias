@@ -1,0 +1,93 @@
+.container-table {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 25px;
+}
+.content-table {
+    text-align: left;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    border-collapse: collapse;
+    font-size: 1.1em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.14);
+    
+}
+
+.content-table thead tr {
+    background-color: #29009878;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid  #29009878;;
+}
+
+.btn-edit {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #266cd6be;
+    border: 1px solid #2a4cbd;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.btn-edit:hover {
+    transition-duration: 0.2s;
+    border: 1px solid #6a92cebe;
+    background-color: #6a92cebe;
+}
+
+.btn-delete {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #dc3546ab;
+    border: 1px solid #dc3545;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.icon-style {
+    display: flex;
+    align-items: center;
+}

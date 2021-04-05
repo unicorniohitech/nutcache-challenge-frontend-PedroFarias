@@ -1,0 +1,38 @@
+.modal-spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040 !important;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    
+  }
+  
+  .modal-spinner-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050 !important;
+    width: 100%;
+    height: 100%;
+    
+  }
+ 
+
+  .spinner {
+    border: 8px solid rgba(0,0,0,0.1);
+    border-left-color: #22a6b3;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+  }
+
+  @keyframes spin {
+    to {transform: rotate(360deg);}
+  }
+  
